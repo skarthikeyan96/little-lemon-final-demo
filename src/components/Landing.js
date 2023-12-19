@@ -1,6 +1,10 @@
 import Salad from '../images/greek_salad.png'
 import LemonDessert from '../images/lemon_dessert.jpg'
 import RestFood from '../images/restauranfood.jpg'
+
+import {Link} from 'react-router-dom'
+
+
 const Landing = () => {
   return (
     <>
@@ -38,7 +42,7 @@ const Landing = () => {
             <img
               className="w-full"
               src={LemonDessert}
-              alt="Placeholder Image"
+              alt="Lemon Dessert"
             />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">Lemon Dessert</div>
@@ -57,7 +61,7 @@ const Landing = () => {
             <img
               className="w-full"
               src={Salad}
-              alt="Placeholder Image"
+              alt="Salad"
             />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">Greek Salad</div>
@@ -76,7 +80,7 @@ const Landing = () => {
             <img
               className="w-full w-auto h-56"
               src={RestFood}
-              alt="Placeholder Image"
+              alt="Restaurant Food"
             />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">Sushi</div>
@@ -134,18 +138,12 @@ const Landing = () => {
             <p className="text-sm">All rights reserved.</p>
           </div>
           <div>
-            <a href="#" className="text-gray-600 hover:text-white px-3">
+            <Link to="/Landing" className="text-gray-600 hover:text-white px-3">
               Home
-            </a>
-            <a href="#" className="text-gray-600 hover:text-white px-3">
+            </Link>
+            <Link to="/booking" className="text-gray-600 hover:text-white px-3">
               About
-            </a>
-            <a href="#" className="text-gray-600 hover:text-white px-3">
-              Services
-            </a>
-            <a href="#" className="text-gray-600 hover:text-white px-3">
-              Contact
-            </a>
+            </Link>
           </div>
         </div>
       </footer>
