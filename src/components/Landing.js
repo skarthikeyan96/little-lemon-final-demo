@@ -24,7 +24,7 @@ const Landing = () => {
             </button>
           </div>
           <div>
-            <img className="object-cover h-48 w-96" src={Salad} />
+            <img className="object-cover h-48 w-96" src={Salad} alt="cover_logo"/>
           </div>
         </div>
       </div>

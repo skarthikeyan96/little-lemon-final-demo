@@ -38,12 +38,12 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 shadow-sm md:shadow-none">
           <div className="flex items-center justify-between h-16">
             <div className="flex-shrink-0">
-              <a href="#" className="flex items-center">
+              <Link to="/" className="flex items-center">
                 <img className="h-8 w-auto" src={Logo} alt="Logo" />
                 <span className="text-white text-xl font-semibold ml-2">
                   Your Brand
                 </span>
-              </a>
+              </Link>
             </div>
 
             <div className="flex items-center -mr-2 sm:hidden">
